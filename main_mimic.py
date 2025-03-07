@@ -136,10 +136,7 @@ def main(args):
     Cosine_T_Max = args.epochs
     ITERATIONS_TO_DECREASE_TAU_OVER = args.epochs
 
-    # pdb.set_trace()
-
     ## Data
-
     trainset, valset, _ = dataset.load_mimic_nli(args.data_dir, args.data_name, n_concept=N_QUERIES,
                                                  class_names=[args.class_name])
 
