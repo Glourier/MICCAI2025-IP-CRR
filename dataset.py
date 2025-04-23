@@ -43,7 +43,7 @@ class MIMIC_nli(Dataset):
         return label, concept
 
 
-def load_mimic_nli(data_dir, data_name='mimic_v14_hash1_pneumonia_lt.pkl', n_concept=520,
+def load_mimic_nli(data_dir, data_name='mimic_v27_hash1_nli_whole.pkl', n_concept=520,
                    class_names=None,
                    with_name=False):  # From one label, get one label; no image
 

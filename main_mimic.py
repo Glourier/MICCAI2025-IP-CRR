@@ -41,7 +41,7 @@ def parseargs():
     parser.add_argument('--max_queries_test', type=int, default=50)
     parser.add_argument('--model', type=str, default='NetworkMIMIC')
     parser.add_argument('--name', type=str, default='mimic')
-    parser.add_argument('--data_name', type=str, default='_mimic_v24_whole.pkl')
+    parser.add_argument('--data_name', type=str, default='_mimic_v27_hash1_nli_whole.pkl')
 
     args = parser.parse_args()
     return args
