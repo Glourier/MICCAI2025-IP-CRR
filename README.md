@@ -10,9 +10,12 @@ The development of AI-based methods for analyzing radiology reports could lead t
 If you find this repository useful, please cite the following:
 
 ```bibtex  
-@article{ge2025ipcrr,
+@inproceedings{ge2025ipcrr,
   title={IP-CRR: Information Pursuit for Interpretable Classification of Chest Radiology Reports},
   author={Ge, Yuyan and Chan, Kwan Ho Ryan and Messina, Pablo and Vidal, Ren{\'e}},
-  journal={arXiv preprint arXiv:2505.00191},
-  year={2025}
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={305--315},
+  year={2025},
+  organization={Springer Nature Switzerland Cham}
 }
+```
